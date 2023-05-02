@@ -1,0 +1,33 @@
+#home {
+  width: 100%;
+  height: 100%;
+}
+#home div {
+  margin-top: 15vh;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+#home div h1 {
+  margin-bottom: 4rem;
+}
+#home div h3 {
+  margin-bottom: 2rem;
+}
+#home div p i {
+  animation: infinite-spinning 5s infinite linear;
+}
+
+@keyframes infinite-spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 400px) {
+  #home div {
+    margin-top: 5vh;
+  }
+}/*# sourceMappingURL=home.css.map */

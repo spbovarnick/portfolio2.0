@@ -1,0 +1,84 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+nav #wideNav {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+nav img {
+  cursor: pointer;
+  transition: opacity 0.7s, scale 0.7s;
+}
+nav img:hover {
+  opacity: 0.7;
+  scale: 1.1;
+}
+nav img:active {
+  scale: 0.9;
+  opacity: 1;
+}
+nav a {
+  text-decoration: none;
+  transition: opacity 0.7s, scale 0.7s;
+}
+nav a:hover {
+  opacity: 0.7;
+  scale: 1.1;
+}
+nav a:active {
+  scale: 0.9;
+  opacity: 1;
+}
+nav #mobile {
+  display: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+}
+footer div {
+  margin: 5px;
+}
+footer #socials {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer #socials a {
+  padding: 10px;
+  color: inherit;
+  cursor: pointer;
+  transition: opacity 0.7s, scale 0.7s;
+}
+footer #socials a i {
+  cursor: pointer;
+}
+footer #socials a:hover {
+  opacity: 0.7;
+  scale: 1.1;
+}
+footer #socials a:active {
+  scale: 0.9;
+  opacity: 1;
+}
+
+@media screen and (max-width: 450px) {
+  nav .wide {
+    display: none;
+  }
+  nav #mobile {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}/*# sourceMappingURL=navAndFooter.css.map */
